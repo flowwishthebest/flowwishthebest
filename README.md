@@ -5,7 +5,6 @@
 const ilyap = {
   name: 'Ilya P',
   role: 'Software engineer',
-  stack: ['typescript', 'javascript'],
   links: ['https://t.me/flowwishthebest'],
 };
 ```
