@@ -2,7 +2,7 @@
 
 ## Hi! 👋
 ```typescript
-const ilyap = {
+const me = {
   name: 'Ilya P',
   role: 'Software engineer',
   links: ['https://t.me/flowwishthebest'],
