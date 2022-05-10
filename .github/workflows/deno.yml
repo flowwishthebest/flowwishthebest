@@ -17,5 +17,5 @@ jobs:
           deno-version: 1.18.2
       - uses: denoland/deployctl@v1
         with:
-          project: free-oyster-84
+          project: flowwish
           entrypoint: server.ts
