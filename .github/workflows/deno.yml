@@ -1,0 +1,21 @@
+name: deno
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    name: deploy
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    steps:
+      - uses: actions/checkout@v2
+      - uses: denoland/setup-deno@main
+        with:
+          deno-version: 1.18.2
+      - uses: denoland/deployctl@v1
+        with:
+          project: free-oyster-84
+          entrypoint: server.ts
